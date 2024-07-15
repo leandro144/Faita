@@ -1,0 +1,599 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Reddit Sans", sans-serif;
+}
+
+/* HEADER MOBILE */ 
+
+/* HEADER */
+header {
+  background-color: #106aa0;
+  padding: .825rem 0;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+#logo {
+  width: 95px;
+  height: 35px;
+}
+
+nav ul li a {
+  font-family: "Reddit Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 12px;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#btn-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .625rem;
+}
+
+#btn-down button {
+  background-color: #106aa0;
+  border: none;
+  cursor: pointer;
+}
+
+#aluno {
+  border: 1px solid #fff;
+  padding: .425rem;
+  top: 37px;
+  left: 1041px;
+  gap: 0px;
+  border-radius: 5px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.btn-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.none {
+  display: none;
+}
+
+.toogle {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #00B0EF;
+  position: relative;
+  width: 250px;
+}
+
+/* BANNERS */
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5rem 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.left {
+  padding: 1rem;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #00B0EF;
+}
+
+.left h1 {
+  font-family: "Reddit Sans", sans-serif;
+  font-weight: 400;
+  font-size: 3.5rem;
+}
+
+.left span {
+  font-weight: 800;
+  line-height: 62px;
+}
+
+.left p{
+  color: #7c7c7c;
+}
+
+.right img {
+  width: 100%;
+  height: 329px;
+  border-radius: 31px;
+}
+
+.card-info {
+  background: linear-gradient(272.79deg, #003A4F -52.65%, #00AEEC 63.93%);
+  padding: 1rem 0;
+  text-align: center;
+  color: #fff;
+}
+
+.card-info h2 {
+  font-family: "Reddit Sans", sans-serif;
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 44px;
+}
+
+#italic {
+  font-style: italic;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.text-info p {
+  color: #FFDD42;
+  font-size: 3rem;
+  margin-top: 1rem;
+  font-family: "Reenie Beanie", cursive;
+}
+
+.btn-sign {
+  width: 200px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  background: #FFC700;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
+
+.enrollment {
+  padding: 2rem 0;
+}
+
+.enrollment h1 {
+  text-align: center;
+  font-size: 3.3rem;
+  font-family: "Reddit Sans", sans-serif;
+  font-weight: 800;
+  color: #00AEEC;
+}
+
+.remove {
+  color: transparent;
+  -webkit-text-stroke: 2px #00AEEC;
+}
+
+.enrollment-open {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding-bottom: 5rem;
+}
+
+.card-course {
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  color: #006184;
+  display: flex;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  gap: 1rem;
+  text-align: left;
+  align-items: center;
+}
+
+.card-course span img {
+  width: 300px;
+  border-radius: 24px;
+}
+
+.bg {
+  background: linear-gradient(180deg, #FFFFFF 0%, #A2E6FF 100%);
+  border-radius: 10px;
+  text-align: center;
+  width: 304px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.portal {
+  background: linear-gradient(96.3deg, #534100 -35.49%, #FFC700 41.76%);
+  padding: 3rem 0;
+  color: #fff;
+}
+
+.portal-aluno {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 7rem;
+  align-items: center;
+}
+
+.portal-aluno h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.portal-aluno p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.access {
+  background: #0284D8;
+  color: #fff;
+  font-weight: 400;
+  line-height: 25px;
+  width: 252px;
+  cursor: pointer;
+  height: 55px;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.course {
+  padding: 2rem;
+  background: linear-gradient(180deg, #01729A 0%, #01AFED 100%);
+  text-align: center;
+  color: #fff;
+}
+
+.text-course h1 {
+  font-size: 3.3rem;
+  font-weight: 800;
+}
+
+.text-course p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.course-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.course-text h2{
+  font-size: 2.5rem;
+}
+
+.course-text p {
+  width: 100%;
+}
+
+.course a {
+  background-color: #FFC700;
+  text-align: center;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 16px;
+  width: 100%;
+}
+
+.contact_back {
+  width: 100%; 
+  background-color: #f9f9f9;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contact_back h1 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3.3rem;
+  font-family: "Reddit Sans", sans-serif;
+  font-weight: 800;
+  color: #00AEEC;
+}
+
+.contact_back p {
+  font-weight: .825rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.grid_color {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5rem;
+  height: 100%;
+  background-color: #106aa0;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  background-color: #fff;
+}
+
+fieldset{
+  border: 3px solid dodgerblue;
+  padding: 1rem;
+}
+
+legend{
+  border: 1px solid dodgerblue;
+  padding: 5px;
+  text-align: center;
+  background-color: dodgerblue;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.inputBox{
+  position: relative;
+}
+
+.inputUser{
+  background: none;
+  border: none;
+  border-bottom: 1px solid #106aa0;
+  outline: none;
+  color: #000;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px;
+}
+
+.textArea {
+  background-color: #106aa0;
+  color: #fff;
+}
+
+.labelInput{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.labelArea {
+  color: #fff;
+  top: 10px;
+  padding-left: 5px;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+  top: -20px;
+  font-size: 12px;
+  color: dodgerblue;
+}
+#data_nascimento{
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+}
+
+#submit{
+  background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+  width: 100%;
+  border: none;
+  padding: 15px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#submit:hover{
+  background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+}
+
+.right_contact {
+  margin: 0 auto;
+}
+
+.right_contact h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 4rem;
+  color: #fff;
+}
+
+.right_contact p {
+  color: #fff;
+}
+
+.right_contact img {
+  margin: 0 auto;
+  display: flex;
+  width: 100% !important;
+  height: 250px;
+}
+
+.grid_color .left {
+  width: 100%;
+}
+
+footer {
+ background: #0284D8;
+ padding: 2rem 0;
+ color: #fff;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.info p:nth-child(1) {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.info p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.socials p {
+  font-weight: 800;
+  font-family: "Reddit Sans", sans-serif;
+}
+
+.icons{
+  font-weight: 800;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.icons a {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 800px){
+  .grid_color {
+      grid-template-columns: 1fr;
+  }
+
+  .grid {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 4rem;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  main {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .card-course {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-text h2{
+    font-size: 2rem;
+  }   
+
+  .footer-info {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo-container {
+    width: 100%;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #106aa0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 1rem 0;
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 1rem 0;
+  }
+
+  .course-text h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 477px){
+  .card-course span img {
+    width: 100%;
+    border-radius: 24px;
+  }
+
+  .course-text {
+    width: 100%;
+  }
+}
