@@ -1,17 +1,7 @@
-import './App.css'
-import Header from './components/Header'
-import Main from './components/Main'
-import Contact from './components/Contact'
+import RouteConfig from "./route";
 
 function App() {
-
-  return (
-    <>
-      <Header />  
-      <Main />
-      <Contact />
-    </>
-  )
+  return <RouteConfig />;
 }
 
-export default App
+export default App;
